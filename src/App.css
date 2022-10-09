@@ -4,3 +4,30 @@ body,
     height: 100%;
     margin: 0;
 }
+
+.flex-container {
+    height: 300px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div:nth-child(3) {
+    margin-top: 200px;
+}
+
+div:nth-child(2) {
+    margin-top: 100px;
+}
+
+div:nth-child(4) {
+    margin-top: 100px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #daa520;
+}
